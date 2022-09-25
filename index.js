@@ -34,32 +34,32 @@
 
     // to remove
 
-    // $("button").remove();
+    $("button").remove();
 
 
-    // jquery animation
+    jquery animation
 
-    // $("h1").on("mouseover", function () {
-    //     buttonAnimation()
-    // })
-    // function buttonAnimation(newKey) {
-    //     var documentRep = document.querySelector("."+ newKey);
-    //     documentRep.classList.add("pressed");
+    $("h1").on("mouseover", function () {
+        buttonAnimation()
+    })
+    function buttonAnimation(newKey) {
+        var documentRep = document.querySelector("."+ newKey);
+        documentRep.classList.add("pressed");
     
-    //     setTimeout( function() {
-    //         documentRep.classList.remove("pressed");  
-    //     }, 100);
-    // }
+        setTimeout( function() {
+            documentRep.classList.remove("pressed");  
+        }, 100);
+    }
 
-    // $("button").on("mouseover", function() {
-    //     $("h1").slideToggle();
+    $("button").on("mouseover", function() {
+        $("h1").slideToggle();
 
-    // })
-    // animate
-    // $("button").on("mouseover", function() {
-    //     $("h1").animate({opacity:0.5});
+    })
+    animate
+    $("button").on("mouseover", function() {
+        $("h1").animate({opacity:0.5});
 
-    // })
+    })
     $("button").on("mouseover", function() {
         $("h1").slideUp().slideDown().animate({opacity:0.5});
 
