@@ -34,7 +34,7 @@
 
     // to remove
 
-    // $("button").remove();
+    $("button").remove();
 
 
     // jquery animation
